@@ -590,6 +590,7 @@ display: none;
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow:  0 .5rem 1rem rgba(0,0,0,.1);
         display: none;
+        z-index:999;
     }
     .navbar.active{
         display: block;
@@ -611,7 +612,7 @@ display: none;
         display: none;
     }
     .home{
-        padding: 0 3% 23rem;
+        padding: 13rem 8% 25rem;
         justify-content: center;
         text-align: center;
     }
